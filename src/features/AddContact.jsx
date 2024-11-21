@@ -112,7 +112,6 @@ export function AddContact() {
               name="embedLink"
               value={contactDetails.embedLink}
               onChange={handleInputChange}
-              maxLength="30"
             />
           </div>
 
