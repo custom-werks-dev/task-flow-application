@@ -9,7 +9,7 @@ import {
 const localStorageData = getDataFromLocalStorage();
 
 const initialState = {
-  contactList: localStorageData.length > 0 ? localStorageData : [],
+  contactList: localStorageData?.length > 0 ? localStorageData : [],
   isOpen: false,
 };
 
